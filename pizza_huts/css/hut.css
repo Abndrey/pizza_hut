@@ -1,0 +1,217 @@
+body {
+    overflow-x: hidden !important;
+    
+  }
+  
+  
+  
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    max-width: 17.75rem;
+  }
+
+  h2{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+    font-family: SourceSansPro-Regular;
+    color: rgb(79, 74, 75);
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    font-size: 18px;
+    color: #ccc;
+  }
+
+
+  .cabecalho {
+    justify-content: center; /* Mantém os itens alinhados à direita */
+    align-items: center; /* Centraliza verticalmente os itens */
+    padding-top: 1rem;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    position: static;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    font-size: 17px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 1rem; /* Espaço entre os botões, se houver mais de um */
+    margin-right: 20px; /* Ajuste este valor para mover os botões para a esquerda */
+}
+
+.logo{
+  margin-right: 50em;
+}
+
+
+
+.banner-container {
+  position: relative; /* Contêiner pai precisa ter position: relative */
+}
+
+.banner-container img {
+  width: 100%; /* Ajusta a imagem para preencher o contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  position: absolute; /* Permite que o card sobreponha a imagem */
+  top: 100%; /* Posiciona verticalmente o card no meio do contêiner */
+  left: 50%; /* Posiciona horizontalmente o card no meio do contêiner */
+  transform: translate(-50%, -50%); /* Centraliza o card */
+  width: 50%; /* Largura do card, pode ajustar conforme necessário */
+}
+
+.card {
+  background-color: white; /* Cor de fundo do card */
+  padding: 100px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar o card */
+  border-radius: 24px; /* Bordas arredondadas */
+  text-align: center; /* Centraliza o texto */
+}
+
+
+.legumes{
+  width: 14%;
+  min-height: 80vh;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: -13rem;
+}
+
+.infomacoes{
+  padding-left: 0.5rem;
+    width: 23rem;
+}
+
+.conta{
+  background-color: black;
+  color: #ccc;
+}
+
+.entrar{
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.entrar:hover{
+  background-color: rgb(231, 231, 231);
+}
+
+.conta:hover{
+  background-color: #645f5f;
+}
+
+.text{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.baixo{
+  text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+  
+}
+
+.paragrafo{
+  font-size: 20px;
+}
+
+.input-group{
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.input-group{
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.input-group input{
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  position: absolute;
+  top: 70%; /* Altere esse valor para ajustar a posição vertical do input */
+  left:70%; /* Altere esse valor para ajustar a posição horizontal do input */
+  transform: translate(-67%, -50%);
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: white;
+}
+
+section{
+  width: 1000px;
+}
+
+.oferta{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+.imagem_pizza{
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.rodape{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
